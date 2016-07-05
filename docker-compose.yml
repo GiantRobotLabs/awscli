@@ -1,0 +1,7 @@
+version: '2'
+services:
+  awscli:
+    build: aws-command/.
+    volumes:
+     - .:/awscli
+    env_file: awsenv
