@@ -2,6 +2,8 @@ version: '2'
 services:
   awscli:
     build: aws-command/.
+    image: jneyer/awscli
+    container_name: awscli
     volumes:
      - .:/awscli
     env_file: awsenv

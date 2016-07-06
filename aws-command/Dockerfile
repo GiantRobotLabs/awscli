@@ -1,4 +1,5 @@
 FROM alpine:latest
+MAINTAINER John Neyer <github@jneyer.com>
 
 RUN apk update \
 && apk add \
